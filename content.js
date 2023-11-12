@@ -20,7 +20,7 @@ function markCorrectAnswer(answerLetter) {
 }
 
 const quizData = extractQuizData();
-const apiKey = "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"; // 
+const apiKey = "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"; //
 const apiUrl = "https://api.openai.com/v1/completions";
 
 fetch(apiUrl, {
@@ -38,7 +38,7 @@ fetch(apiUrl, {
 })
   .then((response) => response.json())
   .then((data) => {
-    const answer = data.choices[0].text.trim()[0];
+    const answer = data.choices[0].text.trim()[0].toUpperCase();
     console.log(answer);
     markCorrectAnswer(answer);
   })

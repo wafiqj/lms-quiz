@@ -26,3 +26,7 @@ To use this extension, you need to set up an OpenAI API key. Follow these steps:
 
 ```javascript
 const apiKey = "YOUR_OPENAI_API_KEY"; // Replace with your actual API key
+
+> Bear in mind, using the OpenAI API is like entering a GKU Swimming Pool—
+> there's a cover charge.
+> So, embrace the reality that nothing in this world is truly free

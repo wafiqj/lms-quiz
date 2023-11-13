@@ -20,7 +20,7 @@ function markCorrectAnswer(answerLetter) {
 }
 
 const quizData = extractQuizData();
-const apiKey = "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"; //
+const apiKey = YOUR_OPENAI_API_KEY; //
 const apiUrl = "https://api.openai.com/v1/completions";
 
 fetch(apiUrl, {
